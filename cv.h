@@ -28,7 +28,7 @@ public:
     QList<QString> getHobbies();
 
 private:
-                                             //Surname, Age, Email, Tel, Location
+                                             //Surname Name, Age, Email, Tel, Location
     PersonalData personalData= PersonalData("Marques Anderson", 24,"anderson_rockX@hotmail.com", "+5518991982841",
                                             "Prof. Kenjiro nishi, Presidente Prudente, Brazil");
 
@@ -47,7 +47,6 @@ private:
                                            "Tensorflow Keras","Unity", "MySQl", "MongoDb",".Net","Maui"};
 
     QList<QString> hobbies = {"play guitar and violin","play video games","outdoor running"};
-
 
 };
 #endif // CV_H
